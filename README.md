@@ -103,15 +103,6 @@ mcq-generator/
 - [Streamlit](https://streamlit.io/)
 
 ---
-
-##  Add Your Own Screenshots
-
-1. Take screenshots of your app (home page, MCQ page, etc.)
-2. Save them in the `images/` folder as `sample_home.png`, `sample_mcq.png`, etc.
-3. The images will appear in this README.
-
----
-
 ##  License
 
 MIT License. See [LICENSE](LICENSE) for details.
