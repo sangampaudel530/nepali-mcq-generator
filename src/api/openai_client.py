@@ -1,10 +1,16 @@
 import os
+import streamlit as st
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-# Load API key from .env
-load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY")
+# Load API key from secrets in Streamlit
+import streamlit as st
+api_key = st.secrets["GEMINI_API_KEY"]
+
+#for local 
+# load_dotenv()  # Uncomment if using local .env file
+# api_key = os.getenv("GEMINI_API_KEY")  # Uncomment if using local
+
 
 # Configure Gemini AI
 if api_key:

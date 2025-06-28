@@ -74,8 +74,7 @@ A modern web app to generate high-quality, context-aware Nepali multiple-choice 
 ```
 mcq-generator/
 ├── app.py                
-├── requirements.txt      
-├── .env        
+├── requirements.txt              
 ├── README.md             
 ├── src/
 │   ├── api/
